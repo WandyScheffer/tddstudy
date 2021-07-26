@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "db_tdd_study",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "freezeTableName": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "db_tdd_study",
+    "dialect": "sqlite",
+    "storage": "./config/db_tdd_study.sqlite",
+    "define": {
+      "freezeTableName": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
